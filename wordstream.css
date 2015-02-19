@@ -1,0 +1,167 @@
+#container{
+	/*background-color: lightgrey;*/
+	height: 970px;
+	width: 970px;
+	font-family: arial;
+	font-size: 11px
+}
+.white_text{
+	color: white;
+}
+.blue{
+	color: lightblue;
+}
+a{
+	color: lightblue;
+}
+.top_border{
+	border-top: 2px solid lightgrey; 
+}
+.mains{
+	display: inline-block;
+}
+button{
+	padding: 2px 15px;
+	border-radius: 5px;
+	background-color: lightblue;
+}
+
+
+
+#header{
+	/*background-color: green;*/
+	height: 85px;
+	width: 970px;
+
+}
+/*#header p{				logo information
+	margin: 0px;
+	height: 150px;
+	width: 500px;
+	display: inline-block;
+	266 74
+}*/
+#header img{
+	height: 75px;
+	width: 266px;
+	margin-right: 234px;
+	/*margin-bottom: 10px; */
+}
+#header ul{
+	background-color: lightgrey;
+	margin: 0px;
+	display: inline-block;
+	list-style: none;
+	height: 20px;
+	width: 365px;
+	vertical-align: top;
+	font-size: 11px;
+	border-right: 1px solid grey;
+	border-bottom: 1px solid grey;
+	border-left: 1px solid grey;
+	padding-left: 1px;
+	border-bottom-right-radius: 5px;
+	border-bottom-left-radius: 5px;
+}
+#header ul li{
+	display: inline-block;
+	margin-left: 10px;
+	text-align: right;
+	
+}
+#header ul li+li{
+	border-left: 1px solid black;
+	padding-left: 10px;
+
+}
+#page_title{
+	background-color: lightblue;
+	height: 35px;
+	width: 970px;
+	margin: 0px;
+	font-size: 20px;
+	font-weight: normal;
+	padding-left: 10px;
+	padding-top: 15px;
+
+
+}
+#adverts{
+	/*background-color: red;*/
+	height: 660px;
+	width: 250px;
+	vertical-align: top;
+	padding-top: 30px;
+}
+	#adverts h2{
+		font-size: 16px;
+		padding-left: 15px;
+	}
+	#adverts p{
+		width: 156px;
+		padding-left: 15px;
+		font-size: 10px;
+	}
+	#adverts p:first-of-type{
+		color: red;
+	}
+	}
+	#adverts button{
+		background-color: blue;
+	}
+	#adverts button+button{
+		background-color: green;
+	}
+	#adverts img{
+		padding-left: 15px;
+	}
+#body{
+	/*background-color: yellow;*/
+	height: 660px;
+	width: 650px;
+}
+	#body h1{
+		font-size: 20px;
+		padding-top: 5px;
+	}
+	#body ul{
+		padding-left: 12px;
+	}
+#try_platform{
+	border: 2px solid lightblue;
+	height: 100px;
+	width: 640px;
+
+}
+	.key_elements{
+		height: 100px;
+		width: 400px;
+		margin: 0px;
+		display: inline-block;
+		vertical-align: top;
+	}
+	#try_platform img{
+		height: 90px;
+		width: 50px;
+		padding-top: 10px;
+		font-size: 14px;
+		/*margin-bottom: 79px;*/
+	}
+	#try_platform h1{
+		display: inline-block;
+		font-size: 18px;
+		width: 500px;
+		vertical-align: top;
+		margin: 0px;
+	}
+	#try_platform p{
+		display: inline-block;
+		width: 500px;
+		margin-top: 5px;
+	}
+	#try_platform button{
+		background-color: lightgreen;
+		padding: 5px 15px;
+
+		/*display: inline-block;*/
+	}
